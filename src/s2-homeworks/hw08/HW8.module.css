@@ -1,0 +1,42 @@
+.item {
+    border-bottom:  1px solid lightgray;
+}
+
+.item:last-of-type {
+    border-bottom:  0px solid white;
+}
+
+.users {
+    font-weight: 600;
+}
+
+.buttonsContainer {
+    width: 600px;
+    height: 60px;
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-content: end;
+    gap: 12px;
+}
+
+.container {
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.thead {
+    padding: 10px;
+    background: #E5E5E5;
+}
+
+.nameCol {
+    width: 300px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.ageCol {
+    width: 300px;
+    padding: 10px;
+}

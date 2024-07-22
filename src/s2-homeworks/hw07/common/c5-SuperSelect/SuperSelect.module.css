@@ -1,0 +1,14 @@
+.select {
+    margin-right: 108px;
+    width: 180px;
+    height: 24px;
+    border: solid 1px #C2C2C2;
+}
+
+.select:focus {
+    border: solid 1px black;
+}
+
+.option:hover {
+    border: solid 1px #C2C2C2;
+}

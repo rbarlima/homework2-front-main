@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.friendMessage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 70px;
+}
+
+.friendImageAndText {
+    display: flex;
+    flex-direction: row;
+}
+
+.friendImageAndText img {
+    height: 48px;
+    width: 48px;
+}
+
+.friendText {
+    background-color: #F5F7FB;
+    border-radius: 10px;
+    margin-left: 13px;
+    position: relative;
+}
+
+.friendText:after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -10px; bottom: 0px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-bottom: 10px solid #F5F7FB; /* Добавляем треугольник */
+}
+
+.friendName {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.friendMessageText {
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.friendTime {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
