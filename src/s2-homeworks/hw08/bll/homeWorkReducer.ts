@@ -12,12 +12,12 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
             let stateCopy = [...state]
             if (action.payload === 'up') {
                 stateCopy = [...state].sort((a, b) => {
-                   return  a.name < b.name ? 1 : a.name > b.name ? -1 : 0
+                   return  a.name > b.name ? 1 : a.name < b.name ? -1 : 0
                 })
             }
             if (action.payload === 'down') {
                 stateCopy = [...state].sort((a, b) => {
-                   return  a.name > b.name ? 1 : a.name < b.name ? -1 : 0
+                   return  a.name < b.name ? 1 : a.name > b.name ? -1 : 0
                 })
             }
             return stateCopy
