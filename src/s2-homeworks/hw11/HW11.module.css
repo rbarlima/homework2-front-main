@@ -1,8 +1,14 @@
 .container {
+    width: 340px;
 }
 
 .wrapper {
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    gap: 20px;
 }
 
 .number {
+    text-align: center;
+    font: bold 20px Montserrat;
 }
